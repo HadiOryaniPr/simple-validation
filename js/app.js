@@ -1,4 +1,4 @@
-alert("❤️ WELCOME ❤️")
+alert("☑️ WELCOME ☑️")
 var quastion = prompt("whos there?");
 var username = "admin";
 var password = "themaster";
