@@ -1,30 +1,27 @@
-alert("❤️ WELCOME ❤️")
+alert("❤️ WELCOME ❤️");
 var quastion = prompt("whos there?");
 var username = "admin";
 var password = "themaster";
 
-
-uservalidation(); 
+uservalidation();
 
 // username validation
 
-function uservalidation(){
-  if(quastion == username) {
+function uservalidation() {
+  if (quastion == username) {
     pass();
-  }else if(quastion > username){
-    alert("❗❗❗ i dont know you ❗❗❗")
+  } else if (quastion > username) {
+    alert("❗❗❗ i dont know you ❗❗❗");
   }
 }
 
 // password validation
 
-function pass(){
-  let pas = prompt("password?")
-  if(pas < password){
+function pass() {
+  let pas = prompt("password?");
+  if (pas < password) {
     alert("❌❌❌ Wrong Password ❌❌❌");
-
-  }else if(pas == password){
-
+  } else if (pas == password) {
     alert("✅ WELCOME ✅");
   }
 }
