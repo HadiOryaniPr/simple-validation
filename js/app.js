@@ -8,7 +8,7 @@ uservalidation();
 // username validation
 
 function uservalidation() {
-  if (quastion == username) {
+  if (quastion === username) {
     pass();
   } else if (quastion > username) {
     alert("❗❗❗ i dont know you ❗❗❗");
@@ -21,7 +21,7 @@ function pass() {
   let pas = prompt("password?");
   if (pas < password) {
     alert("❌❌❌ Wrong Password ❌❌❌");
-  } else if (pas == password) {
+  } else if (pas === password) {
     alert("✅ WELCOME ✅");
   }
 }
