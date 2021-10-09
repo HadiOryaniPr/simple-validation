@@ -1,5 +1,5 @@
 alert("❤️ WELCOME ❤️");
-let quastion = prompt("whos there?");
+let quastion = prompt("who's there?");
 let username = "admin";
 let password = "themaster";
 
