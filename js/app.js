@@ -1,7 +1,7 @@
 alert("❤️ WELCOME ❤️");
-var quastion = prompt("whos there?");
-var username = "admin";
-var password = "themaster";
+let quastion = prompt("whos there?");
+let username = "admin";
+let password = "themaster";
 
 uservalidation();
 
